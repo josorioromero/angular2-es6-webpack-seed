@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaVersion": 7
+  },
+  "rules": {
+    "no-extra-parens": [2, "all"],
+    "no-console": 2,
+    "valid-jsdoc": 2,
+    "strict": [2, "global"]
+  }
+}
