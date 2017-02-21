@@ -1,0 +1,17 @@
+{
+  "reporter": [
+    "lcov",
+    "text"
+  ],
+  "require": [
+    "babel-register"
+  ],
+  "include": [
+    "app/**/*.js"
+  ],
+  "exclude": [
+    "app/**/*.spec.js"
+  ],
+  "all": true,
+  "check-coverage": true
+}

@@ -1,4 +1,6 @@
+--growl
+--colors
 --reporter=spec
 --compilers js:babel-register
---growl
+--webpack-config webpack.test.babel.js
 app/**/*.spec.js

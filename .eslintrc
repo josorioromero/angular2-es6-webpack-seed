@@ -3,10 +3,15 @@
   "parserOptions": {
     "ecmaVersion": 7
   },
+  "env": {
+    "mocha": true
+  },
   "rules": {
-    "no-extra-parens": [2, "all"],
-    "no-console": 2,
-    "valid-jsdoc": 2,
-    "strict": [2, "global"]
+    "max-len": ["error", 120],
+    "import/no-extraneous-dependencies": ["error", {"peerDependencies": true}],
+    "no-extra-parens": ["error", "all"],
+    "no-console": "error",
+    "valid-jsdoc": "error",
+    "strict": ["error", "global"]
   }
 }
