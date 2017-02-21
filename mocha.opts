@@ -1,0 +1,2 @@
+--require mocha-test-shim.js
+--webpack-config webpack.test.babel.js
