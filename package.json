@@ -19,7 +19,8 @@
     "server:prod": "webpack && http-server build -c-1 --cors -p 9000 -o",
     "server:dev": "webpack-dev-server --host 0.0.0.0 --config webpack.dev.babel.js",
     "start": "yarn run server:dev",
-    "test": "mocha-webpack --watch --require mocha-test-shim.js --webpack-config webpack.test.babel.js \"app/**/*.spec.js\"",
+    "test": "mocha-webpack --require mocha-test-shim.js --webpack-config webpack.test.babel.js \"app/**/*.spec.js\"",
+    "test:watch": "mocha-webpack --watch --require mocha-test-shim.js --webpack-config webpack.test.babel.js \"app/**/*.spec.js\"",
     "watch": "yarn run server:dev -- --watch",
     "watch:prod": "yarn run server:prod -- --watch"
   },
